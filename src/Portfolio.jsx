@@ -74,7 +74,12 @@ const Portfolio = () => {
             </div>
 
             {/* Featured Project Card - Wide */}
-            <div className="lg:col-span-3 bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-300 hover:scale-[1.01] group">
+            <a 
+              href="https://real-timemarketgainertracker-hsfz8bhrt4hobv49vweckv.streamlit.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="lg:col-span-3 bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-300 hover:scale-[1.01] group block"
+            >
               <div className="relative h-full min-h-[300px] p-8 flex flex-col justify-end">
                 {/* Gradient Background */}
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-900/40 via-purple-900/30 to-cyan-900/40"></div>
@@ -99,7 +104,7 @@ const Portfolio = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </a>
 
             {/* Stats Cards Container */}
             <div className="lg:col-span-1 space-y-4">
