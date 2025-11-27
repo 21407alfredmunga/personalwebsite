@@ -117,36 +117,51 @@ const Portfolio = () => {
             </div>
 
             {/* E-Commerce Site */}
-            <div className="bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-300 hover:scale-[1.01]">
+            <a 
+              href="https://21407alfredmunga-uber-streamlit-uber-dashboard-wd4zxx.streamlit.app/?embed_options=show_toolbar,light_theme,show_colored_line,show_padding,dark_theme"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-300 hover:scale-[1.01] block"
+            >
               <div className="relative h-48 md:h-64">
                 <div className="absolute inset-0 bg-gradient-to-br from-purple-900/60 via-violet-900/40 to-purple-950/60"></div>
                 <div className="absolute inset-0 flex items-end p-6">
-                  <h3 className="text-2xl font-bold relative z-10">E-Commerce Site</h3>
+                  <h3 className="text-2xl font-bold relative z-10">Uber Dashboard</h3>
                 </div>
               </div>
-            </div>
+            </a>
 
             {/* Mobile Task App */}
-            <div className="bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-300 hover:scale-[1.01]">
+            <a 
+              href="https://21407alfredmunga-streamlit-lloyds-segments-app-sy63yy.streamlit.app/?embed_options=show_toolbar,show_colored_line,show_padding,show_footer,dark_theme"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-300 hover:scale-[1.01] block"
+            >
               <div className="relative h-48 md:h-64">
                 <div className="absolute inset-0 bg-gradient-to-br from-orange-900/60 via-red-900/40 to-orange-950/60"></div>
                 <div className="absolute inset-0 bg-[linear-gradient(45deg,transparent_25%,rgba(255,255,255,0.05)_50%,transparent_75%)]"></div>
                 <div className="absolute inset-0 flex items-end p-6">
-                  <h3 className="text-2xl font-bold relative z-10">Mobile Task App</h3>
+                  <h3 className="text-2xl font-bold relative z-10">Customer Segmentation Dashboard</h3>
                 </div>
               </div>
-            </div>
+            </a>
 
             {/* Data Analytics Tool */}
-            <div className="bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-300 hover:scale-[1.01]">
+            <a 
+              href="https://21407alfredmunga-streamlit-powerco-churn-app-rcujo5.streamlit.app/?embed_options=light_theme,show_padding,show_footer,dark_theme,show_colored_line"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-3xl overflow-hidden hover:border-white/20 transition-all duration-300 hover:scale-[1.01] block"
+            >
               <div className="relative h-48 md:h-64">
                 <div className="absolute inset-0 bg-gradient-to-br from-cyan-900/60 via-blue-900/40 to-cyan-950/60"></div>
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_120%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"></div>
                 <div className="absolute inset-0 flex items-end p-6">
-                  <h3 className="text-2xl font-bold relative z-10">Data Analytics Tool</h3>
+                  <h3 className="text-2xl font-bold relative z-10">Customer Churn Dashboard</h3>
                 </div>
               </div>
-            </div>
+            </a>
 
             {/* Let's Connect Card */}
             <div className="bg-zinc-900/50 backdrop-blur-sm border border-white/10 rounded-3xl p-8 hover:border-white/20 transition-all duration-300 hover:scale-[1.01]">
