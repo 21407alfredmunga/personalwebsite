@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Github, Linkedin, Twitter } from 'lucide-react';
 
 const Portfolio = () => {
@@ -17,9 +18,9 @@ const Portfolio = () => {
             <a href="#work" className="text-gray-300 hover:text-white transition-colors">Work</a>
             <a href="#about" className="text-gray-300 hover:text-white transition-colors">About</a>
             <a href="#contact" className="text-gray-300 hover:text-white transition-colors">Contact</a>
-            <button className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg font-medium transition-colors">
+            <Link to="/resume" className="bg-blue-600 hover:bg-blue-700 px-6 py-2 rounded-lg font-medium transition-colors">
               Resume
-            </button>
+            </Link>
           </div>
         </div>
       </nav>
